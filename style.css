@@ -4,7 +4,7 @@
 body
 {
     background-color: black;
-    font-family: system-ui;
+    font-family: 'droid_sansregular', 'Arial', sans-serif;
 }
 
 h1, h2
