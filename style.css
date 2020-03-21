@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 
 
 
@@ -5,6 +7,7 @@ body
 {
     background-color: black;
     font-family: 'droid_sansregular', 'Arial', sans-serif;
+    max-width: 100%;
 }
 
 h1, h2
@@ -40,23 +43,37 @@ section
 {   
     width: 33%;
     background-color: #FF9800;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding-top: 5%;
     
 }
 
 #sect_right
 {
-    width: 85%;
+    width: 67%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     background-color: white;
 }
 #sect_right h2
 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     border-bottom: 0.1em solid #FF9800;
     width: 86%;
     margin: auto;
@@ -74,10 +91,15 @@ section
 }
 #conteneur
 {
-    width: 900px;
+    max-width: 100%;
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     margin: auto;
 }
 
@@ -100,8 +122,6 @@ section
 }
 section
 {
-    width: 100%;
-    height: 100%;
     margin: 0% 0% 5% 0%;
 }
 section h2
@@ -110,9 +130,13 @@ section h2
 }
 .date
 {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
    vertical-align: top;
-   justify-content: flex-start;
+   -webkit-box-pack: start;
+       -ms-flex-pack: start;
+           justify-content: flex-start;
    padding: 0;
 }
 table td
@@ -146,14 +170,24 @@ ul
 }
 #hobbys
 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 #sect_right h1
 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     margin-left: 8%;
     margin-top: 10%;
     margin-bottom: 0%;
@@ -162,8 +196,12 @@ ul
 }
 #sect_right h3
 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     margin: 0 0 8% 10%;
     color: #424242;
 }
@@ -180,9 +218,15 @@ ul
 }
 #recommandation
 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 
 }
 #contact li
@@ -245,25 +289,40 @@ body{
 }
 #conteneur
 {
-    width: 900px;
+    max-width: 100%;
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     margin: auto;
 }
 #sect_left
 {   
     width: 100%;
     background-color: #FF9800;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     padding: 0;
     height: 20em;
 }
 #sect_right {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     background-color: white;
 }
 #photomedia
@@ -278,16 +337,25 @@ body{
   top: 2em;
 }
 #sect_right h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     margin-left: 8%;
     margin-top: -15%;
     margin-bottom: 0%;
     font-size: -webkit-xxx-large;
 }
 #hobbys {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     /* justify-content: space-around; */
     margin-left: 15%;
 }
@@ -303,15 +371,25 @@ body{
 #sect_left{   
     width: 100%;
     background-color: #FF9800;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 0;
     text-align: center;
     height: 100%;
   }
 #hobbys {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     padding-bottom: 1em;
     margin-right: 6em;
   }
