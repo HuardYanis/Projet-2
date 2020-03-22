@@ -9,7 +9,6 @@ body
     font-family: 'droid_sansregular', 'Arial', sans-serif;
     width: 900px;
     margin: auto;
-    overflow: hidden;
 
 }
 
@@ -81,7 +80,7 @@ section
 }
 #conteneur
 {
-    max-max-width: 100%;
+    max-width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -250,7 +249,7 @@ body{
 }
 #conteneur
 {
-    max-max-width: 100%;
+    max-width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column-reverse;
@@ -314,6 +313,7 @@ body{
     padding: 0;
     text-align: center;
     height: 100%;
+    clear: both;
   }
 #hobbys {
     display: flex;
