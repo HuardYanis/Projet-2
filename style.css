@@ -131,6 +131,7 @@ table td
 ul
 {
     list-style: none;
+    padding: 0;
 }
 .hobby
 {
@@ -328,5 +329,8 @@ body{
     margin-right: 5%;
     text-align: center;
     margin-bottom: 2%;
+}
+#sect_right{
+    width: 100%;
 }
 }
