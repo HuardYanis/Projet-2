@@ -313,7 +313,6 @@ body{
     padding: 0;
     text-align: center;
     height: 100%;
-    clear: both;
   }
 #hobbys {
     display: flex;
