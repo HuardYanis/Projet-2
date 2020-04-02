@@ -7,7 +7,7 @@ body
 {
     background-color: black;
     font-family: 'droid_sansregular', 'Arial', sans-serif;
-    width: 900px;
+    width: 100%;
     margin: auto;
 }
 
@@ -297,22 +297,29 @@ body{
     display: flex;
     flex-direction: column;
     /* justify-content: space-around; */
-    margin-left: 15%;
+    margin-left: 34%;
 }
 #loisir{
     margin: 0;
+    width: 20%;
+}
+#contact {
+    width: 30%;
+}
+#proposmoi {
+    width: 50%;
 }
 #contact li{
     margin: 0;
 }
 }
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 600px){
 
 #sect_left{   
     width: 100%;
     background-color: #FF9800;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     padding: 0;
     text-align: center;
     height: 100%;
@@ -321,7 +328,7 @@ body{
     display: flex;
     flex-direction: row;
     padding-bottom: 1em;
-    margin-right: 6em;
+    margin-left: 1px;
   }
 .hobby i {
     color: #263238;
@@ -333,7 +340,57 @@ body{
     text-align: center;
     margin-bottom: 2%;
 }
+
 #sect_right{
     width: 100%;
+}
+#contact, #loisir, #proposmoi{
+    width: 100%;
+}
+#photomedia {
+    background-image: url("images/photopetite.png");
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 0.2em solid #EF6C00;
+    position: relative;
+    left: 30%;
+    top: 2em;
+    background-size: cover;
+}
+#sect_right h1 {
+    margin-top: 11%;
+    }
+#recommandation {
+    display: : flex;
+    flex-wrap: wrap;
+}
+.dl {
+    margin-left: 0.5em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dl dt {
+    position: relative;
+    left: 0;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+    top: 0;
+}
+.dl dd{
+    padding: 0;
+    margin:  0 0 4px 0;
+
+}
+#sect_right h1 {
+    margin-top: 11%;
+    font-size: 2em;
+}
+.lieu {
+    margin-bottom: 20px;
+}
+.hobby i{
+    margin-left: 0;
 }
 }
